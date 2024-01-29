@@ -1,0 +1,521 @@
+/* Spotlight section css --------------------------------------------------------------------------------- */
+
+.service-spotlight.inner-spotlight-sec {
+    /* background: linear-gradient(90deg, rgba(0, 20, 71, 0.39) 15.93%, rgba(0, 20, 71, 0.00) 87.44%); */
+    background-image: url('../../img/services_img/MultiuserWarehousing/multiuser-spotlight.jpg');
+    background-color: #AF4E39;
+    background-color: #AF4E39;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+/* About section css --------------------------------------------------------------------------------- */
+
+
+.services-hdng {
+    display: grid;
+    border-bottom: 1px solid #0a0a0a;
+    padding-bottom: 37px;
+    margin-bottom: 65px;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: 1fr 1.6fr 1.6fr 1.6fr;
+}
+
+.services-hdng h2 {
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.36px;
+    text-transform: uppercase;
+    /* padding: 0 20px; */
+}
+
+.trusted-ttl {
+    margin-bottom: 30px;
+}
+
+.user-numbers-sec {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 80px;
+    background:  #FFF;
+    box-shadow: 5px 4px 12px 5px rgba(252, 123, 18, 0.80);
+    padding: 30px 10px 16px 60px;
+}
+
+.user-numbers-dv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 33.33%;
+    gap: 15px;
+}
+
+.user-numbers-desc {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.4px;
+    text-transform: capitalize;
+    width: 55%;
+    margin: 0px;
+}
+
+.user-numbers-dv .numbers {
+    width: 27%;
+}
+
+.multiuser-container2 {
+    padding-top: 0px;
+}
+
+.multiuser-container1 {
+    padding-top: 40px;
+}
+
+
+/* built-to-suit section css --------------------------------------------------------------------------------- */
+
+
+.built-to-suit-sec {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.24) 15.93%, rgba(0, 0, 0, 0.00) 87.44%);
+    background-color: #0038FF;
+}
+
+.built-img-clm img {
+    border-radius: 36px;
+}
+
+.built-cntnt-clm p {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.built-row {
+    align-items: center;
+    gap: 65px;
+}
+
+.we-offer-txt {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0;
+    margin-top: 45px;
+}
+
+.built-line-img {
+    width: 100%;
+}
+
+
+.built-ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 100px;
+    margin-top: 30px;
+}
+
+.built-ul li:after {
+    display: none;
+}
+
+.built-ul li {
+    display: block;
+    padding-left: 40px;
+    padding-bottom: 0;
+}
+
+.built-ul h3 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.36px;
+    text-transform: uppercase;
+}
+
+
+.built-ul p {
+    margin-top: 10px;
+}
+
+.built-ul li:before {
+    left: 0;
+    background-image: url('../../img/services_img/MultiuserWarehousing/Services-arrow.svg');
+    margin-top: 5px;
+}
+
+@media screen and (max-width:768px) {
+    .built-row .clm-2 {
+        width: 100%;
+    }
+    
+    .built-row {
+        gap: 20px;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    .built-ul {
+        column-gap: 40px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .built-img-clm img {
+        width: 100%;
+    }
+    
+    .built-ul {
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 0;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .built-ul p {
+        margin-bottom: 5px;
+    }
+    .built-cntnt-clm p {
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 5px;
+    }
+    .we-offer-txt {
+        font-size: 22px;
+        line-height: 25px;
+        margin-top: 25px;
+    }
+    .built-line-img {
+        width: auto;
+    }
+
+}
+
+
+/* In-Plant Warehouse Management section css --------------------------------------------------------------------------------- */
+
+
+.inPlant-container .row {
+    flex-direction: row-reverse;
+}
+
+.inplant-ul h3 {
+    color: #0038FF;
+}
+
+
+/* Multiuser Warehousing Management section css --------------------------------------------------------------------------------- */
+
+.moretext, .bond-moretext {
+    display: none;
+    padding: 20px 0;
+}
+
+.moretext p, .bond-moretext p {
+    margin: 0px;  
+}
+
+.readMore-button, .cstm-bondReadMore {
+    cursor: pointer;
+    color: #0038FF;
+    font-family: "normalidad-wide", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    position: relative;
+    border-bottom: 1px solid #929292;
+    padding-right: 30px;
+    padding-bottom: 5px;
+}
+
+
+.readMore-button:after, .cstm-bondReadMore:after {
+    content: '';
+    position: absolute;
+    background-image: url(../../img/services_img/MultiuserWarehousing/down-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    left: auto;
+    height: 20px;
+    margin-left: 10px;
+    transition: transform .5s ease;
+}
+
+.readMore-button:hover, .cstm-bondReadMore:hover {
+    color: #0038FF;
+}
+
+.rotate::after {
+    transform: rotate(180deg);
+}
+
+.inPlant-sec2 {
+    background-color: #F6F6F6;
+}
+
+.inPlant-sec2 .main-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.advtg-txt {
+    margin-top: 0;
+    text-align: center;
+}
+
+.advant-containr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 0 40px;
+}
+
+.advan-bx h4 {
+    color: #0038FF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.36px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.advan-bx p {
+    margin-top: 0px;
+}
+
+
+/* Custom bonded section css --------------------------------------------------------------------------------- */
+
+
+.custom-bonded-sec {
+    background-color: #0038FF;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.24) 15.93%, rgba(0, 0, 0, 0.00) 87.44%);
+}
+
+.cstm-bondReadMore, .cstm-bondReadMore:hover {
+    color: #fff;
+}
+
+.cstm-bondReadMore:after {
+    background-image: url(../../img/services_img/MultiuserWarehousing/down_arrow_white.svg);
+}
+
+.custom-bonded-sec2 {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.24) 15.93%, rgba(0, 0, 0, 0.00) 87.44%);
+    background-color: #002FD4;
+}
+
+ul.accordion-list {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0;
+    list-style: none;
+}
+
+ul.accordion-list li {
+    position: relative;
+    display: block;
+    height: auto;
+    padding: 20px 0px;
+    cursor: pointer;
+    border-bottom: 1px solid #3461FF;
+}
+
+
+ul.accordion-list li div.answer {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.accordion-list li:before, .accordion-list li:after {
+    display: none;
+}
+
+ul.accordion-list li h3:after {
+    content: '';
+    background-image: url(../../img/services_img/MultiuserWarehousing/plus-icon.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    right: 0;
+    top: auto;
+    transition: all 0.3s ease-in-out;
+    font-size: 18px;
+    width: 16px;
+    height: 16px;
+}
+
+ul.accordion-list li.active h3:after {
+    background-image: url(../../img/services_img/MultiuserWarehousing/minus-icon.svg);
+}
+
+ul.accordion-list li h3 {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; 
+    letter-spacing: 0.36px;
+    text-transform: uppercase;
+}
+
+ul.accordion-list li.active h3 {
+    color: #FC7B12 !important;
+}
+
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .numbers {
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .multiuser-container2 {
+        padding-top: 0px !important;
+    }
+    
+    .user-numbers-sec {
+        padding: 20px 10px 16px 60px;
+    }
+    
+    .built-img-clm img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+    .services-hdng {
+        margin-bottom: 40px;
+    }
+    .user-numbers-desc {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .user-numbers-sec {
+        padding: 20px 10px 16px 30px;
+    }
+    .bond-txt {
+        margin-top: 0;
+    }
+    
+    ul.accordion-list {
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+    .built-row {
+        flex-direction: column !important;
+    }
+}
+
+
+@media screen and (min-width:320px) and (max-width:767px) {
+
+    .services-hdng {
+        padding-bottom: 30px;
+        margin-bottom: 25px;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+       
+    .user-numbers-sec {
+        flex-direction: column;
+        align-content: flex-start;
+        padding: 30px;
+        gap: 20px;
+    }
+    .user-numbers-dv {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .multiuser-container2 {
+        margin-bottom: 60px !important;
+    }
+
+    .readMore-button, .cstm-bondReadMore {
+        top: 10px;
+    }
+
+    .user-numbers-desc {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .multiwar-cont1 {
+        padding-bottom: 65px !important;
+    }
+    
+    .advant-containr {
+        flex-direction: column;
+        gap: 0;
+        margin-top: 20px;
+        padding: 0 20px;
+    }
+    
+    .custom-bonded-cntr1 {
+        padding-bottom: 65px !important;
+    }
+
+    .bond-txt {
+        margin-top: 0;
+    }
+
+    ul.accordion-list {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .inPlant-container .row {
+        gap: 20px;
+        flex-direction: column !important;
+    }
+
+}
+
+
